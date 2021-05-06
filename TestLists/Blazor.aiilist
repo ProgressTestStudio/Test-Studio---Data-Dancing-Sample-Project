@@ -28,7 +28,7 @@
             "LocalWebServer": 0,
             "EnableUILessRequestViewing": false,
             "WebAppPhysicalPath": "",
-            "DefaultBrowser": 10,
+            "DefaultBrowser": 11,
             "EnableScriptLogging": false,
             "BaseUrl": "",
             "KillBrowserProcessOnClose": false,
