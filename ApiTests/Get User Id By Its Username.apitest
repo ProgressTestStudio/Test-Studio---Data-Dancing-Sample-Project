@@ -1,0 +1,207 @@
+{
+  "$version": "test-case/v1",
+  "steps": [
+    {
+      "key": "7xsfOurOLjpRF6QzR6j2mR",
+      "name": "Get All Users",
+      "action": {
+        "key": "7a8by8mVtmRooSogQtvarH",
+        "name": "",
+        "type": "http-request",
+        "properties": {
+          "Method": "GET",
+          "Url": "{{base-url}}/api/users",
+          "Body": "{\"Content\":\"\",\"FilePath\":null,\"Mode\":\"raw\"}"
+        }
+      },
+      "verifications": [
+        {
+          "key": "4URAD6EsXAVMEWmnVADUM1",
+          "name": "",
+          "type": "verify",
+          "properties": {
+            "SourceVariable": "StatusCode",
+            "Expectation": "200",
+            "OperationType": "is-equal-number"
+          }
+        }
+      ]
+    },
+    {
+      "key": "6zEPXLt1AH9JJ5p68GpWTT",
+      "name": "Store the User Id",
+      "action": {
+        "key": "1U8r3xFzpdxITrSvI6Xvj5",
+        "name": "",
+        "type": "set-variable",
+        "properties": {
+          "TargetLevel": 2,
+          "TransformationType": "none",
+          "SourceVariable": "Body",
+          "SourcePathType": "jsonpath",
+          "SourcePath": "$[0].id",
+          "VariableName": "user-id-from-index"
+        }
+      },
+      "verifications": []
+    },
+    {
+      "key": "1CbwVBbVjpFptR8olhJ659",
+      "name": "Store the Username",
+      "action": {
+        "key": "Xe7e3v0sI6XNisRl9t6RS",
+        "name": "",
+        "type": "set-variable",
+        "properties": {
+          "TargetLevel": 2,
+          "TransformationType": "none",
+          "SourceVariable": "Body",
+          "SourcePathType": "jsonpath",
+          "SourcePath": "$[0].userName",
+          "VariableName": "username"
+        }
+      },
+      "verifications": []
+    },
+    {
+      "key": "5zpLVuLR6Ist5411yJ6ZBo",
+      "name": "Find User Id by Its Username",
+      "action": {
+        "key": "7HnyIgBTkDZhVdHQnouEy8",
+        "name": "",
+        "type": "set-variable",
+        "properties": {
+          "TargetLevel": 2,
+          "TransformationType": "none",
+          "SourceVariable": "Body",
+          "SourcePathType": "jsonpath",
+          "VariableName": "user-id-from-filter-expression",
+          "SourcePath": "$.[?(@.userName=='{{username}}')].id"
+        }
+      },
+      "verifications": []
+    },
+    {
+      "key": "34cyOn3dkLCLk1Uxao5HQB",
+      "name": "Verify Ids Match",
+      "verifications": [
+        {
+          "key": "5OQ7OsTfu5Nsleg6WukNV9",
+          "name": "",
+          "type": "verify",
+          "properties": {
+            "SourceVariable": "user-id-from-index",
+            "SourcePathType": "jsonpath",
+            "OperationType": "is-equal",
+            "Expectation": "{{user-id-from-filter-expression}}"
+          }
+        }
+      ]
+    },
+    {
+      "key": "ye6cZGmYzVWd2u5y8w7VP",
+      "name": "Http Request",
+      "action": {
+        "key": "70dcpv1GHYWMT24GbLiha1",
+        "type": "http-request",
+        "properties": {
+          "Method": "GET",
+          "Body": "{\"Content\":\"\",\"FilePath\":null,\"Mode\":\"raw\"}",
+          "Url": "http://nbwfhwieland.bedford.progress.com:8031/ping",
+          "Headers": "[{\"Accept\":\"application/json\"},{\"Host\":\"nbwfhwieland.bedford.progress.com:8032\"}]"
+        }
+      },
+      "verifications": [
+        {
+          "key": "ioImHF5GfvNV4t8IBOFg2",
+          "type": "verify",
+          "properties": {
+            "SourceVariable": "Body",
+            "SourcePathType": "none",
+            "OperationType": "is-equal",
+            "Expectation": ""
+          }
+        }
+      ]
+    },
+    {
+      "key": "5xem5t4yKmVKGQumyztbpv",
+      "name": "Http Request",
+      "action": {
+        "key": "3CNF5yyirO8mAsPD9p0WdZ",
+        "type": "http-request",
+        "properties": {
+          "Method": "GET",
+          "Body": "{\"Content\":\"\",\"FilePath\":null,\"Mode\":\"raw\"}",
+          "Url": "http://nbwfhwieland.bedford.progress.com:8032/StatusHistory",
+          "Headers": "[{\"Accept\":\"application/json\"},{\"Host\":\"nbwfhwieland.bedford.progress.com:8032\"}]"
+        }
+      },
+      "verifications": []
+    },
+    {
+      "key": "41jCVTYfGC3NGSO0ePxTlg",
+      "name": "Http Request",
+      "action": {
+        "key": "3HgvEApsB2mKbHfR5SXP7X",
+        "type": "http-request",
+        "properties": {
+          "Method": "GET",
+          "Body": "{\"Content\":\"\",\"FilePath\":null,\"Mode\":\"raw\"}",
+          "Url": "http://nbwfhwieland.bedford.progress.com:8031/ping",
+          "Headers": "[{\"Accept\":\"application/json\"},{\"Host\":\"nbwfhwieland.bedford.progress.com:8032\"}]"
+        }
+      },
+      "verifications": []
+    },
+    {
+      "key": "60wVJUN4Rh4t4Z6hQWUbe8",
+      "name": "Http Request",
+      "action": {
+        "key": "6Vb36ozRf8CIn4l6A8ZBxw",
+        "type": "http-request",
+        "properties": {
+          "Method": "PUT",
+          "Body": "{\"Content\":\"{\\r\\n  \\\"ProcessManagerUri\\\": \\\"http://NBWFHWIELAND.bedford.progress.com:55555/\\\",\\r\\n  \\\"AlternateProcessManagerUris\\\": [\\r\\n    \\\"http://NBWFHWIELAND.bedford.progress.com:55555/\\\",\\r\\n    \\\"http://NBWFHWIELAND:55555/\\\",\\r\\n    \\\"http://192.168.1.19:55555/\\\",\\r\\n    \\\"http://169.254.147.111:55555/\\\",\\r\\n    \\\"http://169.254.243.46:55555/\\\"\\r\\n  ],\\r\\n  \\\"MachineDetail\\\": {\\r\\n    \\\"MachineName\\\": \\\"nbwfhwieland\\\",\\r\\n    \\\"RamMB\\\": 32768.0,\\r\\n    \\\"NumberLogicalCores\\\": 8,\\r\\n    \\\"CurrentRamMB\\\": 20506.0,\\r\\n    \\\"CurrentCPUPercentage\\\": 19.420348590310567,\\r\\n    \\\"OperatingSystemName\\\": \\\"Windows 10\\\",\\r\\n    \\\"Is64Bit\\\": true,\\r\\n    \\\"InstalledBrowsers\\\": [\\r\\n      {\\r\\n        \\\"Type\\\": 1,\\r\\n        \\\"Version\\\": \\\"9.11.15063.0\\\",\\r\\n        \\\"IsConfigured\\\": true\\r\\n      },\\r\\n      {\\r\\n        \\\"Type\\\": 2,\\r\\n        \\\"Version\\\": \\\"64.0 (x64 en-US)\\\",\\r\\n        \\\"IsConfigured\\\": true\\r\\n      },\\r\\n      {\\r\\n        \\\"Type\\\": 5,\\r\\n        \\\"Version\\\": \\\"5.1.7\\\",\\r\\n        \\\"IsConfigured\\\": true\\r\\n      },\\r\\n      {\\r\\n        \\\"Type\\\": 7,\\r\\n        \\\"Version\\\": \\\"71.0.3578.98\\\",\\r\\n        \\\"IsConfigured\\\": false\\r\\n      },\\r\\n      {\\r\\n        \\\"Type\\\": 9,\\r\\n        \\\"Version\\\": \\\"40.15063.0.0\\\",\\r\\n        \\\"IsConfigured\\\": true\\r\\n      }\\r\\n    ],\\r\\n    \\\"ConnectionState\\\": 1\\r\\n  },\\r\\n  \\\"Processes\\\": [\\r\\n    {\\r\\n      \\\"Id\\\": 11284,\\r\\n      \\\"ProcessName\\\": \\\"Telerik.TestStudio.RemoteExecutor\\\",\\r\\n      \\\"Name\\\": \\\"executor\\\",\\r\\n      \\\"ServicePath\\\": \\\"http://nbwfhwieland.bedford.progress.com:8032\\\",\\r\\n      \\\"FailedPings\\\": 0\\r\\n    },\\r\\n    {\\r\\n      \\\"Id\\\": 17280,\\r\\n      \\\"ProcessName\\\": \\\"Telerik.TestStudio.Profiler\\\",\\r\\n      \\\"Name\\\": \\\"profiler\\\",\\r\\n      \\\"ServicePath\\\": \\\"http://nbwfhwieland.bedford.progress.com:8031\\\",\\r\\n      \\\"FailedPings\\\": 0\\r\\n    }\\r\\n  ],\\r\\n  \\\"State\\\": 0\\r\\n}\",\"FilePath\":null,\"Mode\":\"raw\"}",
+          "Url": "http://nbwfhwieland.bedford.progress.com:8009/machinereport/nbwfhwieland",
+          "Headers": "[{\"Accept\":\"application/json\"},{\"Host\":\"nbwfhwieland.bedford.progress.com:8032\"}]"
+        }
+      },
+      "verifications": []
+    },
+    {
+      "key": "6H1v6EsybycY6MO2zKBXEF",
+      "name": "Http Request",
+      "action": {
+        "key": "QH9StJnKz7rDRIQTCHbMz",
+        "type": "http-request",
+        "properties": {
+          "Method": "GET",
+          "Body": "{\"Content\":\"\",\"FilePath\":null,\"Mode\":\"raw\"}",
+          "Url": "http://nbwfhwieland.bedford.progress.com:8032/StatusHistory",
+          "Headers": "[{\"Accept\":\"application/json\"},{\"Host\":\"nbwfhwieland.bedford.progress.com:8032\"}]"
+        }
+      },
+      "verifications": []
+    },
+    {
+      "key": "6M2RiG2FwHTweTPqKgNtA7",
+      "name": "Http Request",
+      "action": {
+        "key": "1YimgyVQ3omfSgwAwq8DWG",
+        "type": "http-request",
+        "properties": {
+          "Method": "PUT",
+          "Body": "{\"Content\":null,\"FilePath\":null,\"Mode\":\"raw\"}",
+          "Authorization": "{\"mode\":\"oauth\",\"properties\":{\"username\":\"\",\"password\":\"\",\"properties\":{}}}"
+        }
+      },
+      "verifications": []
+    }
+  ],
+  "variables": {
+    "variable": null,
+    "test variable": "123456",
+    "variable1": null
+  }
+}

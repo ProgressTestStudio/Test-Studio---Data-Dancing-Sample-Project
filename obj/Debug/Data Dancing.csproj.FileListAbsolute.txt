@@ -1,0 +1,67 @@
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Data Dancing.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Data Dancing.pdb
+C:\My Documents\Test Studio Projects\Data Dancing\bin\ArtOfTest.WebAii.Design.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\ArtOfTest.WebAii.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Telerik.TestStudio.Core.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Newtonsoft.Json.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Telerik.TestStudio.NativeWrappers.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Telerik.TestStudio.Interfaces.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Telerik.TestingFramework.Hosts.Common.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Telerik.TestingFramework.Interop.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Telerik.TestStudio.Shared.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Telerik.Windows.Controls.Data.2017.3.1116.1145.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Telerik.TestStudio.BaseUI.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Telerik.Windows.Controls.2017.3.1116.1145.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Telerik.Licensing.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Telerik.TestStudio.Analytics.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Autofac.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Telerik.Windows.Controls.ScheduleView.2017.3.1116.1145.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Telerik.Windows.Zip.2017.3.1116.1145.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Telerik.Windows.Controls.RibbonView.2017.3.1116.1145.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Telerik.Windows.Controls.GridView.2017.3.1116.1145.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Telerik.Windows.Controls.Input.2017.3.1116.1145.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Telerik.Windows.Controls.Navigation.2017.3.1116.1145.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Telerik.Windows.Data.2017.3.1116.1145.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Telerik.Windows.Controls.Docking.2017.3.1116.1145.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Telerik.Windows.Controls.DataVisualization.2017.3.1116.1145.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Telerik.Windows.Controls.Chart.2017.3.1116.1145.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Telerik.Windows.Documents.2017.3.1116.1145.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Telerik.Windows.Documents.FormatProviders.Html.2017.3.1116.1145.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Telerik.TestStudio.SourceControl.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Telerik.TestStudio.Aws.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Telerik.TestStudio.Theme.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\ArtOfTest.InternetExplorer.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Telerik.TestStudio.OCR.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\System.Web.Http.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\System.Net.Http.Formatting.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Telerik.Windows.Documents.Core.2017.3.1116.1145.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Telerik.Windows.Documents.Flow.2017.3.1116.1145.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\AWSSDK.S3.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\AWSSDK.Core.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Tesseract.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\stdole.dll
+C:\My Documents\Test Studio Projects\Data Dancing\bin\ArtOfTest.WebAii.xml
+C:\My Documents\Test Studio Projects\Data Dancing\obj\Debug\Data Dancing.csprojAssemblyReference.cache
+C:\My Documents\Test Studio Projects\Data Dancing\obj\Debug\Data Dancing.csproj.CoreCompileInputs.cache
+C:\My Documents\Test Studio Projects\Data Dancing\obj\Debug\Data Dancing.csproj.CopyComplete
+C:\My Documents\Test Studio Projects\Data Dancing\obj\Debug\Data Dancing.dll
+C:\My Documents\Test Studio Projects\Data Dancing\obj\Debug\Data Dancing.pdb
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Kendo CRUD\Kendo 3.tstest
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Kendo CRUD\Kendo CRUD - Create.tstest
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Kendo CRUD\Kendo CRUD - Delete.tstest
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Kendo CRUD\Kendo CRUD - Update.tstest
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Kendo CRUD\Kendo Grid Create 2.tstest
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Kendo CRUD\subtest.tstest
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Kendo CRUD\WebTest(1).tstest
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Kendo CRUD\WebTest.tstest
+C:\My Documents\Test Studio Projects\Data Dancing\obj\Debug\Data Dancing.csproj.GenerateResource.cache
+C:\My Documents\Test Studio Projects\Data Dancing\obj\Debug\Data_Dancing.Amazon Test 200.resources
+C:\My Documents\Test Studio Projects\Data Dancing\obj\Debug\Data_Dancing.Constellation_Tests.Constellation Application Wizard.resources
+C:\My Documents\Test Studio Projects\Data Dancing\obj\Debug\Data_Dancing.Kendo_CRUD.Kendo CRUD - Update.resources
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Blazor Testing\Blazing Coffee.tstest
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Blazor Testing\WebTest.tstest
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Going Shopping.tstest
+C:\My Documents\Test Studio Projects\Data Dancing\bin\Health Check.tstest
+C:\My Documents\Test Studio Projects\Data Dancing\bin\New Kendo Grid.tstest
+C:\My Documents\Test Studio Projects\Data Dancing\bin\WebTest2.tstest

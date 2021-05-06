@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data Dancing", "Data Dancing.csproj", "{E27D3CDA-0B82-40AA-9B8E-1C20A5A2D29E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E27D3CDA-0B82-40AA-9B8E-1C20A5A2D29E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E27D3CDA-0B82-40AA-9B8E-1C20A5A2D29E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDF1EE9B-A6F5-483F-A55A-28F622D96F79}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://amwieland.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Data\u0020Dancing.csproj
+		SccLocalPath1 = .
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,357 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.UserSettings",
+  "__value": {
+    "UseHttpProxy": false,
+    "RecordjQueryInDescriptorsIfPossible": true,
+    "ShouldDeleteElement": false,
+    "SkipDeleteElementPrompt": false,
+    "HideFindExpressionWelcome": false,
+    "MenuHoldTime": 1.0,
+    "SilverlightConnectTimeout": 60000,
+    "BaseClassName": "BaseWebAiiTest",
+    "UrlRecordMode": 1,
+    "HighlightBorderColor": -65536,
+    "HighlightBorderSize": 1,
+    "CodeGenerationElementIdentificationType": 1,
+    "UrlHistory": [],
+    "AbsoluteDragDropRecording": true,
+    "ShowStoryboardHorizontalLayout": false,
+    "ImageScalePercentage": 75,
+    "SkipTranslatorsOptimization": false,
+    "SelectedIdentificaitonScheme": "Html",
+    "IdentificationSchemes": {
+      "Html": {
+        "__type": "ArtOfTest.Common.Design.Translation.IdentificationOptionsScheme",
+        "__value": {
+          "CheckFindParamUniqueness": true,
+          "AutoDetectTestRegions": true,
+          "TryAttributeCombinations": true,
+          "AlwaysAssertTagName": true,
+          "IdentificationsPerTag": {
+            "All Elements": {
+              "__type": "ArtOfTest.Common.Design.Translation.IdentificationDescriptorList",
+              "__value": [
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 0,
+                    "AttributeName": "name"
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 0,
+                    "AttributeName": "id"
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": true,
+                    "SearchType": 1,
+                    "AttributeName": null
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 0,
+                    "AttributeName": "aria label"
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 0,
+                    "AttributeName": "xamltag"
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 0,
+                    "AttributeName": "class"
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 0,
+                    "AttributeName": "ng-repeat"
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 0,
+                    "AttributeName": "ng-data"
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 0,
+                    "AttributeName": "data-successful"
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 0,
+                    "AttributeName": "automationid"
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 2,
+                    "AttributeName": null
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 0,
+                    "AttributeName": "value"
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 0,
+                    "AttributeName": "src"
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 0,
+                    "AttributeName": "href"
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 0,
+                    "AttributeName": "alt"
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": true,
+                    "SearchType": 8,
+                    "AttributeName": null
+                  }
+                }
+              ]
+            }
+          },
+          "TechnologyType": 1
+        }
+      },
+      "Silverlight": {
+        "__type": "ArtOfTest.Common.Design.Translation.IdentificationOptionsScheme",
+        "__value": {
+          "CheckFindParamUniqueness": true,
+          "AutoDetectTestRegions": true,
+          "TryAttributeCombinations": true,
+          "AlwaysAssertTagName": true,
+          "IdentificationsPerTag": {
+            "All Elements": {
+              "__type": "ArtOfTest.Common.Design.Translation.IdentificationDescriptorList",
+              "__value": [
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.Silverlight.SilverlightIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 0,
+                    "AttributeName": null
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.Silverlight.SilverlightIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 5,
+                    "AttributeName": null
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.Silverlight.SilverlightIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 1,
+                    "AttributeName": null
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.Silverlight.SilverlightIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": true,
+                    "SearchType": 6,
+                    "AttributeName": null
+                  }
+                }
+              ]
+            }
+          },
+          "TechnologyType": 2
+        }
+      }
+    },
+    "UnitTypeTypeGeneration": 1,
+    "RecorderBaseUrl": "",
+    "IsStoryBoardCapturingEnabled": true,
+    "IsElementImageCapturingEnabled": true,
+    "UseScreenshotCache": true,
+    "EnableImageSearch": true,
+    "ScrollOnImageSearch": false,
+    "DisplayElementImagePreview": true,
+    "ElementImageThreshold": 90,
+    "ElementImageSearchTimeout": 15000,
+    "SearchByImageFirst": false,
+    "ElementImageSearchDelay": 300,
+    "SimulateRealClickByDefault": true,
+    "SimulateRealTypingByDefault": true,
+    "SimulateRealSilverlightUserByDefault": true,
+    "DefaultDropDownSelection": 2,
+    "QuickExecutionElementWaitTimeout": 15000,
+    "QuickExecutionClientReadyTimeout": 30000,
+    "QcServerUrl": null,
+    "QcUserName": "",
+    "QcPassword": "",
+    "QcSkipAuthDialog": false,
+    "QcDomain": null,
+    "QcProject": null,
+    "TfsUserName": "",
+    "TfsPassword": "",
+    "TfsSkipAuthDialog": false,
+    "TfsDomain": "",
+    "TeamPulseServerUrl": "",
+    "TpUserName": "",
+    "TpPassword": "",
+    "TpUseWindowsAuth": false,
+    "TpSkipAuthDialog": false,
+    "TpDefaultProjectId": -1,
+    "RecordWpfWindowStateChanged": true,
+    "PromptNameOnAddElement": true,
+    "DefaultWPFApplication": null,
+    "UseLegacySilverlightFindLogic": false,
+    "ProjectGuid": "86454467-1443-4af3-a023-8f8928128a44",
+    "SourceControlRepository": {
+      "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
+      "__value": {
+        "RemotePath": "https://github.com/ProgressTestStudio/Test-Studio---Data-Dancing-Sample-Project",
+        "ServerInfo": {
+          "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitServerInfo",
+          "__value": {
+            "ServerName": "https://github.com/ProgressTestStudio/Test-Studio---Data-Dancing-Sample-Project"
+          }
+        },
+        "ServerType": 2
+      }
+    },
+    "IsOnline": true,
+    "ProjectLanguage": 1,
+    "ProjectReferences": [
+      "System",
+      "System.Core",
+      "ArtOfTest.WebAii, Version=2021.1.309.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
+      "ArtOfTest.WebAii.Design, Version=2021.1.309.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
+      "Telerik.WebAii.Controls.Html, Version=2021.1.309.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml, Version=2021.1.309.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2021.1.309.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI, Version=2021.1.309.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI.Angular, Version=2021.1.309.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.TelerikUI.Blazor, Version=2021.1.309.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestStudio.Translators.Common, Version=2021.1.309.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c",
+      "System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+      "System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+      "System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+      "Data Dancing - Test Studio Sample Project\\libs\\Any-.Net-master\\Any\\bin\\Debug\\Any.dll"
+    ],
+    "ScheduleServerUrl": "http://localhost:8009/",
+    "IsScheduleServerRemote": true,
+    "NotificationSettings": {
+      "EmailsList": [
+        "andy.wieland@progress.com"
+      ],
+      "Notify": 0,
+      "ShowGeneralInformation": true,
+      "ShowFailureInformation": true,
+      "AttachExcel": true,
+      "AttachWord": true,
+      "AttachAiiResult": true,
+      "AttachXml": true,
+      "AttachHtml": true,
+      "TextBefore": "",
+      "TextBetween": "",
+      "TextAfter": "",
+      "Subject": "RunResult: NameOfRun; ResultOfRun; EndTime EndTimeOfRun; Pass/Total summary Machine: MachineName"
+    },
+    "WebComponents": true,
+    "ProjectVersion": "2021.1.302.0",
+    "Namespace": "Data_Dancing",
+    "AssemblyName": "Data Dancing",
+    "OutputFolder": "bin",
+    "ExcludedFiles": [],
+    "InDevelopmentFiles": [
+      "Kendo CRUD\\subtest.tstest.cs"
+    ],
+    "DisabledTranslators": [],
+    "SkipFindExpressionSetDataDrivenWarning": false,
+    "BugTrackerPersistableSettings": {
+      "Team Foundation Server": {
+        "__type": "Telerik.TestStudio.TFSBugTracker.TFSSettings",
+        "__value": {
+          "ServerName": "https://amwieland.visualstudio.com/",
+          "TfsCollection": {
+            "__type": "Telerik.TestStudio.TFSBugTracker.TfsCollection",
+            "__value": {
+              "TfsCollectionId": "918f66e2-2d29-449e-8b0e-f1b8f2ffd0e3",
+              "TfsCollectionName": "amwieland",
+              "RootName": "TFSSettings",
+              "CurrentVersion": "2021.1.309.0",
+              "XmlBlob": null
+            }
+          },
+          "ProjectName": "TestStudioWorld",
+          "RootName": "",
+          "CurrentVersion": "2021.1.309.0",
+          "XmlBlob": null
+        }
+      }
+    },
+    "ActiveBugTrackers": [
+      "Team Foundation Server"
+    ],
+    "BugTitleMask": "{0} step on {1} test failed.",
+    "BugAddAttachment": true,
+    "BugAutoSubmit": false,
+    "BugDescriptionMask": "{0}",
+    "SelectedBrowserOption": 7,
+    "SelectedResponsiveBrowserOption": 7,
+    "ResponsiveBrowserDevice": "iPhone 5/SE",
+    "ResponsiveBrowserWidth": 320,
+    "ResponsiveBrowserHeight": 568,
+    "ResponsiveBrowserUserAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1",
+    "ActiveTheme": "Dark"
+  }
+}

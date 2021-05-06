@@ -1,0 +1,415 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <RootNamespace>Data_Dancing</RootNamespace>
+    <AssemblyName>Data Dancing</AssemblyName>
+    <OutputPath>bin</OutputPath>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <ProjectGuid>{E27D3CDA-0B82-40AA-9B8E-1C20A5A2D29E}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ArtOfTest.WebAii, Version=2020.2.910.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c">
+      <SpecificVersion>false</SpecificVersion>
+    </Reference>
+    <Reference Include="ArtOfTest.WebAii.Design, Version=2020.2.910.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d">
+      <SpecificVersion>false</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <Reference Include="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <Reference Include="Telerik.TestingFramework.Controls.KendoUI, Version=2020.2.910.0, Culture=neutral, PublicKeyToken=528163f3e645de45">
+      <SpecificVersion>false</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.TestingFramework.Controls.KendoUI.Angular, Version=2020.2.910.0, Culture=neutral, PublicKeyToken=528163f3e645de45">
+      <SpecificVersion>false</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.TestingFramework.Controls.TelerikUI.Blazor, Version=2020.2.910.0, Culture=neutral, PublicKeyToken=528163f3e645de45">
+      <SpecificVersion>false</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.TestStudio.Translators.Common, Version=2020.2.910.0, Culture=neutral, PublicKeyToken=528163f3e645de45">
+      <SpecificVersion>false</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.WebAii.Controls.Html, Version=2020.2.910.0, Culture=neutral, PublicKeyToken=528163f3e645de45">
+      <SpecificVersion>false</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.WebAii.Controls.Xaml, Version=2020.2.910.0, Culture=neutral, PublicKeyToken=528163f3e645de45">
+      <SpecificVersion>false</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.WebAii.Controls.Xaml.Wpf, Version=2020.2.910.0, Culture=neutral, PublicKeyToken=528163f3e645de45">
+      <SpecificVersion>false</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Add to Cart and Delete from Cart.tstest" />
+    <None Include="add to cart.tstest" />
+    <None Include="Amazon 2.tstest" />
+    <None Include="Amazon Shopping\Amazon101.tstest" />
+    <None Include="Amazon Test 200.imgstore">
+      <DependentUpon>Amazon Test 200.tstest</DependentUpon>
+    </None>
+    <None Include="Amazon Test 200.tstest" />
+    <None Include="Blazor Login.imgstore">
+      <DependentUpon>Blazor Login.tstest</DependentUpon>
+    </None>
+    <None Include="Blazor Login.tstest" />
+    <None Include="Blazor Testing\Blazing Coffee.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Blazor Testing\Blazor Dashboard.imgstore">
+      <DependentUpon>Blazor Dashboard.tstest</DependentUpon>
+    </None>
+    <None Include="Blazor Testing\Blazor Dashboard.tstest" />
+    <None Include="Blazor Testing\Finance Portfolio PWA built on WASM.tstest" />
+    <None Include="Blazor Testing\WebTest.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Cascading DropDown List Automation\Cascading Dropdown.tstest" />
+    <None Include="ChatBot Testing.tstest" />
+    <None Include="Constellation Tests\Constellation Application Wizard %281%29.tstest" />
+    <None Include="Constellation Tests\Constellation Application Wizard.imgstore">
+      <DependentUpon>Constellation Application Wizard.tstest</DependentUpon>
+    </None>
+    <None Include="Constellation Tests\Constellation Application Wizard.tstest" />
+    <None Include="Constellation Tests\Constellation Grid.tstest" />
+    <None Include="Constellation Tests\Constellation Login.tstest" />
+    <None Include="Constellation Tests\Constellation Parent Test.tstest" />
+    <None Include="CRM Test 1.tstest" />
+    <None Include="Date Calculator.tstest" />
+    <None Include="Ed Automation.tstest" />
+    <None Include="Excel Data Entry Automation.tstest" />
+    <None Include="Export Excel.tstest" />
+    <None Include="Exporting Excel Data.tstest" />
+    <None Include="Going Shopping.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Google Random Number.tstest" />
+    <None Include="Google Random Word.tstest" />
+    <None Include="Health Check.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Kendo CRUD\Delete Contact.tstest" />
+    <None Include="Kendo CRUD\Kendo 3.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Kendo CRUD\Kendo CRUD - Create.imgstore">
+      <DependentUpon>Kendo CRUD - Create.tstest</DependentUpon>
+    </None>
+    <None Include="Kendo CRUD\Kendo CRUD - Create.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Kendo CRUD\Kendo CRUD - Delete.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Kendo CRUD\Kendo CRUD - Parent.imgstore">
+      <DependentUpon>Kendo CRUD - Parent.tstest</DependentUpon>
+    </None>
+    <None Include="Kendo CRUD\Kendo CRUD - Parent.tstest" />
+    <None Include="Kendo CRUD\Kendo CRUD - Update.imgstore">
+      <DependentUpon>Kendo CRUD - Update.tstest</DependentUpon>
+    </None>
+    <None Include="Kendo CRUD\Kendo CRUD - Update.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Kendo CRUD\Kendo Grid Create 2.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Kendo CRUD\Login Test.tstest" />
+    <None Include="Kendo CRUD\new test.tstest" />
+    <None Include="Kendo CRUD\subtest.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Kendo CRUD\WebTest%281%29.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Kendo CRUD\WebTest.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Kendo Dropdown.tstest" />
+    <None Include="Kendo Inline Editing Grid - Coded Trim.tstest" />
+    <None Include="Marlink\Marlink Create Template.tstest" />
+    <None Include="Marlink\Marlink Login.tstest" />
+    <None Include="Marlink\Marlink Logout.tstest" />
+    <None Include="Marlink\Marlink Parent.tstest" />
+    <None Include="Mockaroo.tstest" />
+    <None Include="New amazon.tstest" />
+    <None Include="New Kendo Grid.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Newest Amazon.tstest" />
+    <None Include="Newest Amazon3.tstest" />
+    <None Include="OCR Testing - PDF\PDF Quote New.tstest" />
+    <None Include="OCR Testing - PDF\PDF Quote.tstest" />
+    <None Include="OCR Testing - PDF\PDF Test.tstest" />
+    <None Include="Owen Health Screener.tstest" />
+    <None Include="Parent Email Generator.tstest" />
+    <None Include="Parent Flight Search.tstest" />
+    <None Include="Parent RandomNum Google.tstest" />
+    <None Include="Parent Test.tstest" />
+    <None Include="Qlik\Qlik Sense.tstest" />
+    <None Include="Qlik\Qlik.tstest" />
+    <None Include="Random Email Generator with custom domain.tstest" />
+    <None Include="Random Number Generator.tstest" />
+    <None Include="Renewal Rep attainment.tstest" />
+    <None Include="Search Flights.tstest" />
+    <None Include="seleniumexamples.tstest" />
+    <None Include="Settings.aiis" />
+    <None Include="Sprint 1\Add to Cart and Delete from Cart.tstest" />
+    <None Include="Sprint 1\add to cart.tstest" />
+    <None Include="Sprint 1\Amazon 2.tstest" />
+    <None Include="Sprint 2\Add to Cart and Delete from Cart.tstest" />
+    <None Include="Sprint 2\add to cart.tstest" />
+    <None Include="Sprint 2\Amazon 2.tstest" />
+    <None Include="Step 1 Random Word Extract and write to Excel.tstest" />
+    <None Include="Step 1 Random Word Extract IFElse Cookie.tstest" />
+    <None Include="Step 1 Random Word Extract.tstest" />
+    <None Include="Tableau Public - Istanbul Traffic.tstest" />
+    <None Include="Tableau Public Northwind.tstest" />
+    <None Include="Tableau Testing\Tableau 1.tstest" />
+    <None Include="Tableau Testing\Tableau 3.tstest" />
+    <None Include="Tableau Testing\Tableau2.tstest" />
+    <None Include="TestLists\Data Dancing.aiilist" />
+    <None Include="TestLists\Parent Tests.aiilist" />
+    <None Include="TestLists\Tests With Bugs Production.aiilist" />
+    <None Include="TestLists\Tests With Bugs Staging.aiilist" />
+    <None Include="Training Login.tstest" />
+    <None Include="WebTest%2810%29.tstest" />
+    <None Include="WebTest%2811%29.tstest" />
+    <None Include="WebTest%2812%29.tstest" />
+    <None Include="WebTest%2813%29.tstest" />
+    <None Include="WebTest%282%29.tstest" />
+    <None Include="WebTest%283%29.tstest" />
+    <None Include="WebTest%284%29.tstest" />
+    <None Include="WebTest%285%29.tstest" />
+    <None Include="WebTest%286%29.tstest" />
+    <None Include="WebTest%287%29.tstest" />
+    <None Include="WebTest%288%29.tstest" />
+    <None Include="WebTest%289%29.tstest" />
+    <None Include="WebTest.tstest" />
+    <None Include="WebTest2.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WPF Testing\CRM101.tstest" />
+    <None Include="WPF Testing\WebTest.tstest" />
+    <None Include="WPFTest.tstest" />
+    <None Include="Write into Excel Data Dir.tstest" />
+    <None Include="Write into Excel.tstest" />
+    <Compile Include="Amazon Test 200.tstest.cs">
+      <DependentUpon>Amazon Test 200.tstest</DependentUpon>
+    </Compile>
+    <Compile Include="Blazor Testing\Blazor Dashboard.tstest.cs">
+      <DependentUpon>Blazor Dashboard.tstest</DependentUpon>
+    </Compile>
+    <Compile Include="CRM Test 1.tstest.cs">
+      <DependentUpon>CRM Test 1.tstest</DependentUpon>
+    </Compile>
+    <Compile Include="Export Excel.tstest.cs">
+      <DependentUpon>Export Excel.tstest</DependentUpon>
+    </Compile>
+    <Compile Include="Random Email Generator with custom domain.tstest.cs">
+      <DependentUpon>Random Email Generator with custom domain.tstest</DependentUpon>
+    </Compile>
+    <Compile Include="Step 1 Random Word Extract and write to Excel.tstest.cs">
+      <DependentUpon>Step 1 Random Word Extract and write to Excel.tstest</DependentUpon>
+    </Compile>
+    <Compile Include="Tableau Testing\Tableau 1.tstest.cs">
+      <DependentUpon>Tableau 1.tstest</DependentUpon>
+    </Compile>
+    <Compile Include="Write into Excel Data Dir.tstest.cs">
+      <DependentUpon>Write into Excel Data Dir.tstest</DependentUpon>
+    </Compile>
+    <Compile Include="Write into Excel.tstest.cs">
+      <DependentUpon>Write into Excel.tstest</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="add to cart.imgstore">
+      <DependentUpon>add to cart.tstest</DependentUpon>
+    </None>
+    <None Include="add to cart.resx">
+      <DependentUpon>add to cart.tstest</DependentUpon>
+    </None>
+    <None Include="Blazor Testing\Finance Portfolio PWA built on WASM.imgstore">
+      <DependentUpon>Finance Portfolio PWA built on WASM.tstest</DependentUpon>
+    </None>
+    <None Include="Blazor Testing\Finance Portfolio PWA built on WASM.resx">
+      <DependentUpon>Finance Portfolio PWA built on WASM.tstest</DependentUpon>
+    </None>
+    <None Include="ChatBot Testing.imgstore">
+      <DependentUpon>ChatBot Testing.tstest</DependentUpon>
+    </None>
+    <None Include="ChatBot Testing.resx">
+      <DependentUpon>ChatBot Testing.tstest</DependentUpon>
+    </None>
+    <None Include="CRM Test 1.imgstore">
+      <DependentUpon>CRM Test 1.tstest</DependentUpon>
+    </None>
+    <None Include="CRM Test 1.resx">
+      <DependentUpon>CRM Test 1.tstest</DependentUpon>
+    </None>
+    <None Include="Excel Data Entry Automation.imgstore">
+      <DependentUpon>Excel Data Entry Automation.tstest</DependentUpon>
+    </None>
+    <None Include="Excel Data Entry Automation.resx">
+      <DependentUpon>Excel Data Entry Automation.tstest</DependentUpon>
+    </None>
+    <None Include="Export Excel.imgstore">
+      <DependentUpon>Export Excel.tstest</DependentUpon>
+    </None>
+    <None Include="Export Excel.resx">
+      <DependentUpon>Export Excel.tstest</DependentUpon>
+    </None>
+    <None Include="Exporting Excel Data.imgstore">
+      <DependentUpon>Exporting Excel Data.tstest</DependentUpon>
+    </None>
+    <None Include="Exporting Excel Data.resx">
+      <DependentUpon>Exporting Excel Data.tstest</DependentUpon>
+    </None>
+    <None Include="Google Random Word.imgstore">
+      <DependentUpon>Google Random Word.tstest</DependentUpon>
+    </None>
+    <None Include="Google Random Word.resx">
+      <DependentUpon>Google Random Word.tstest</DependentUpon>
+    </None>
+    <None Include="Mockaroo.imgstore">
+      <DependentUpon>Mockaroo.tstest</DependentUpon>
+    </None>
+    <None Include="Mockaroo.resx">
+      <DependentUpon>Mockaroo.tstest</DependentUpon>
+    </None>
+    <None Include="OCR Testing - PDF\PDF Quote New.imgstore">
+      <DependentUpon>PDF Quote New.tstest</DependentUpon>
+    </None>
+    <None Include="OCR Testing - PDF\PDF Quote New.resx">
+      <DependentUpon>PDF Quote New.tstest</DependentUpon>
+    </None>
+    <None Include="OCR Testing - PDF\PDF Quote.imgstore">
+      <DependentUpon>PDF Quote.tstest</DependentUpon>
+    </None>
+    <None Include="OCR Testing - PDF\PDF Quote.resx">
+      <DependentUpon>PDF Quote.tstest</DependentUpon>
+    </None>
+    <None Include="OCR Testing - PDF\PDF Test.imgstore">
+      <DependentUpon>PDF Test.tstest</DependentUpon>
+    </None>
+    <None Include="OCR Testing - PDF\PDF Test.resx">
+      <DependentUpon>PDF Test.tstest</DependentUpon>
+    </None>
+    <None Include="Owen Health Screener.imgstore">
+      <DependentUpon>Owen Health Screener.tstest</DependentUpon>
+    </None>
+    <None Include="Owen Health Screener.resx">
+      <DependentUpon>Owen Health Screener.tstest</DependentUpon>
+    </None>
+    <None Include="Parent Email Generator.imgstore">
+      <DependentUpon>Parent Email Generator.tstest</DependentUpon>
+    </None>
+    <None Include="Parent Email Generator.resx">
+      <DependentUpon>Parent Email Generator.tstest</DependentUpon>
+    </None>
+    <None Include="Parent Test.imgstore">
+      <DependentUpon>Parent Test.tstest</DependentUpon>
+    </None>
+    <None Include="Parent Test.resx">
+      <DependentUpon>Parent Test.tstest</DependentUpon>
+    </None>
+    <None Include="Random Email Generator with custom domain.imgstore">
+      <DependentUpon>Random Email Generator with custom domain.tstest</DependentUpon>
+    </None>
+    <None Include="Random Email Generator with custom domain.resx">
+      <DependentUpon>Random Email Generator with custom domain.tstest</DependentUpon>
+    </None>
+    <None Include="Step 1 Random Word Extract and write to Excel.imgstore">
+      <DependentUpon>Step 1 Random Word Extract and write to Excel.tstest</DependentUpon>
+    </None>
+    <None Include="Step 1 Random Word Extract and write to Excel.resx">
+      <DependentUpon>Step 1 Random Word Extract and write to Excel.tstest</DependentUpon>
+    </None>
+    <None Include="Step 1 Random Word Extract.imgstore">
+      <DependentUpon>Step 1 Random Word Extract.tstest</DependentUpon>
+    </None>
+    <None Include="Step 1 Random Word Extract.resx">
+      <DependentUpon>Step 1 Random Word Extract.tstest</DependentUpon>
+    </None>
+    <None Include="Tableau Public - Istanbul Traffic.imgstore">
+      <DependentUpon>Tableau Public - Istanbul Traffic.tstest</DependentUpon>
+    </None>
+    <None Include="Tableau Public - Istanbul Traffic.resx">
+      <DependentUpon>Tableau Public - Istanbul Traffic.tstest</DependentUpon>
+    </None>
+    <None Include="Tableau Public Northwind.imgstore">
+      <DependentUpon>Tableau Public Northwind.tstest</DependentUpon>
+    </None>
+    <None Include="Tableau Public Northwind.resx">
+      <DependentUpon>Tableau Public Northwind.tstest</DependentUpon>
+    </None>
+    <None Include="Tableau Testing\Tableau 1.imgstore">
+      <DependentUpon>Tableau 1.tstest</DependentUpon>
+    </None>
+    <None Include="Tableau Testing\Tableau 1.resx">
+      <DependentUpon>Tableau 1.tstest</DependentUpon>
+    </None>
+    <None Include="Tableau Testing\Tableau 3.imgstore">
+      <DependentUpon>Tableau 3.tstest</DependentUpon>
+    </None>
+    <None Include="Tableau Testing\Tableau 3.resx">
+      <DependentUpon>Tableau 3.tstest</DependentUpon>
+    </None>
+    <None Include="Tableau Testing\Tableau2.imgstore">
+      <DependentUpon>Tableau2.tstest</DependentUpon>
+    </None>
+    <None Include="Tableau Testing\Tableau2.resx">
+      <DependentUpon>Tableau2.tstest</DependentUpon>
+    </None>
+    <None Include="Write into Excel Data Dir.imgstore">
+      <DependentUpon>Write into Excel Data Dir.tstest</DependentUpon>
+    </None>
+    <None Include="Write into Excel Data Dir.resx">
+      <DependentUpon>Write into Excel Data Dir.tstest</DependentUpon>
+    </None>
+    <None Include="Write into Excel.imgstore">
+      <DependentUpon>Write into Excel.tstest</DependentUpon>
+    </None>
+    <None Include="Write into Excel.resx">
+      <DependentUpon>Write into Excel.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Kendo CRUD\Kendo CRUD - Parent.resx">
+      <DependentUpon>Kendo CRUD - Parent.tstest</DependentUpon>
+    </None>
+    <EmbeddedResource Include="Amazon Test 200.resx">
+      <DependentUpon>Amazon Test 200.tstest</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellation Tests\Constellation Application Wizard.resx">
+      <DependentUpon>Constellation Application Wizard.tstest</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kendo CRUD\Kendo CRUD - Update.resx">
+      <DependentUpon>Kendo CRUD - Update.tstest</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Blazor Login.resx">
+      <DependentUpon>Blazor Login.tstest</DependentUpon>
+    </None>
+    <None Include="Blazor Testing\Blazor Dashboard.resx">
+      <DependentUpon>Blazor Dashboard.tstest</DependentUpon>
+    </None>
+    <None Include="Kendo CRUD\Kendo CRUD - Create.resx">
+      <DependentUpon>Kendo CRUD - Create.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties Name="Data Dancing" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Condition="true" Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Condition="true" Project="$(MSBuildExtensionsPath)\Telerik\WebUITestStudio\Telerik.WebUITestStudio.targets" />
+</Project>
