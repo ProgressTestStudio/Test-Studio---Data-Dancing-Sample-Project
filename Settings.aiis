@@ -328,13 +328,13 @@
               "TfsCollectionId": "918f66e2-2d29-449e-8b0e-f1b8f2ffd0e3",
               "TfsCollectionName": "amwieland",
               "RootName": "TFSSettings",
-              "CurrentVersion": "2021.1.309.0",
+              "CurrentVersion": "2021.1.330.0",
               "XmlBlob": null
             }
           },
           "ProjectName": "TestStudioWorld",
           "RootName": "",
-          "CurrentVersion": "2021.1.309.0",
+          "CurrentVersion": "2021.1.330.0",
           "XmlBlob": null
         }
       }
